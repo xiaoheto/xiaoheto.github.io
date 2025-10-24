@@ -56,8 +56,7 @@ education:
   - area: Undergraduate Computer Science
     institution: Shanghaijiaotong University
     icon: ""
-    date_start: "2024-09"
-    status: "ongoing"
+    date_start: 2024-9-16
 
 work:
 
@@ -104,4 +103,3 @@ languages:
 awards:
 ---
 I'm an undergraduate in Shanghaijiaotong University, where I'm exploring my interests and gaining knowledge. I'm passionate about Large Language models and software engineering and really eager to explore new areas.
-
