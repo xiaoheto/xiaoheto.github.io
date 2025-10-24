@@ -56,7 +56,7 @@ education:
   - area: Undergraduate Computer Science
     institution: Shanghaijiaotong University
     icon: ""
-    date_start: 2024-9
+    date_start: 2024-9-16
     status: Ongoing
 
 work:
