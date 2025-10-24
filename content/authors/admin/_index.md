@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Alex Johnson
+title: He Zining
 
 # Name pronunciation (optional)
 name_pronunciation: ''
