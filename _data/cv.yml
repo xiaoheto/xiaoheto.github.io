@@ -1,0 +1,109 @@
+cv:
+  name: Zining He
+  label: Computer Science Undergraduate
+  email: hezining@sjtu.edu.cn
+  phone: +86-15662593643
+  location: Shanghai, China
+  image: ""
+  summary: Computer Science undergraduate at Shanghai Jiao Tong University with research interests in AI systems, formal verification, and large language models.
+
+  social_networks:
+    - network: GitHub
+      username: xiaoheto
+
+  sections:
+    Education:
+      - institution: Shanghai Jiao Tong University
+        location: Shanghai, China
+        url: https://www.sjtu.edu.cn/
+        area: Computer Science and Technology
+        studyType: B.S.
+        start_date: 2024-09
+        end_date: 2028-06
+        score: ""
+        courses: ""
+        highlights:
+          - Focus on AI systems, formal verification, and machine learning
+          - Undergraduate research in multiple projects
+
+    Experience:
+      - company: SpecBridge - Natural Language to Lean Specifications
+        position: Undergraduate Research Assistant
+        location: Shanghai Jiao Tong University
+        start_date: 2026-03
+        end_date: Present
+        summary: NeurIPS 2026 submission, third author. Built a reconstruction-guided pipeline that translates natural-language requirements and fixed signatures into Lean specifications.
+        highlights:
+          - Designed NLFP planning and multi-layer validation with Python checks and Lean proof obligations
+          - Improved CLEVER results by 6.1/15.2/28.4 percentage points over few-shot + CoT baselines
+
+      - company: Cross-Architecture Operator Differential Testing
+        position: Undergraduate Research Assistant
+        location: Shanghai Jiao Tong University
+        start_date: 2026-02
+        end_date: Present
+        summary: Developed a CUDA/CANN differential testing pipeline to compare neural-network operator semantics and support GPU/NPU reliability debugging.
+        highlights:
+          - Built differential testing framework for cross-architecture operator validation
+          - Supports GPU and NPU reliability debugging
+
+      - company: Adaptive Acceleration for MoE Large Language Models
+        position: Project Member
+        location: SJTU Undergraduate Innovation Practice Program
+        start_date: 2026-01
+        end_date: Present
+        summary: Designed adaptive expert allocation using gate scores, layer importance, attention, and token activations for MoE inference.
+        highlights:
+          - Profiled Qwen1.5-MoE and DeepSeek-V2 with PyTorch hooks and MMLU scripts
+          - Reduced latency by 12% on Qwen1.5-MoE prefill and 5% on DeepSeek-V2 token generation
+
+      - company: Intent-Based Test Case Generation
+        position: Undergraduate Research Assistant
+        location: Shanghai Jiao Tong University
+        start_date: 2025-09
+        end_date: 2025-12
+        summary: Converted structured and semantic testing intents into executable tests for targeted coverage and bug finding.
+        highlights:
+          - Developed intent-to-test generation framework
+          - Improved test coverage through semantic analysis
+
+    Skills:
+      - name: Programming Languages
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "C++, Rust, Python, Java"
+
+      - name: AI Systems
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, CUDA, Huawei CANN, GPU/NPU operator testing, MoE inference profiling"
+
+      - name: Formal Methods
+        level: Intermediate
+        icon: fa-solid fa-check-double
+        keywords: "Lean, specification synthesis, proof-based verification, test-based verification"
+
+      - name: Systems
+        level: Advanced
+        icon: fa-solid fa-server
+        keywords: "Operating systems, computer architecture, Linux, Git"
+
+    Languages:
+      - name: Chinese
+        summary: "Native speaker"
+
+      - name: English
+        summary: "Fluent"
+
+    Interests:
+      - name: AI Systems
+        icon: fa-solid fa-microchip
+        keywords: "Large Language Models, Model Optimization, Inference Acceleration"
+
+      - name: Formal Verification
+        icon: fa-solid fa-shield-alt
+        keywords: "Theorem Proving, Specification Synthesis, Program Verification"
+
+      - name: Systems Research
+        icon: fa-solid fa-cogs
+        keywords: "Operating Systems, Computer Architecture, Performance Optimization"
