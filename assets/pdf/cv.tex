@@ -1,0 +1,172 @@
+%-------------------------
+% Resume in LaTeX
+% Author : Zining He
+% Based on: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Zining He} \\ \vspace{1pt}
+    Shanghai, China \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +86-15662593643 ~
+    \href{mailto:hezining@sjtu.edu.cn}{\raisebox{-0.2\height}\faEnvelope\ \underline{hezining@sjtu.edu.cn}} ~
+    \href{https://github.com/xiaoheto}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/xiaoheto}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C++, Rust, Python, Java} \\
+     \textbf{AI Systems}{: PyTorch, CUDA, Huawei CANN, GPU/NPU operator testing, MoE inference profiling} \\
+     \textbf{Formal}{: Lean, specification synthesis, proof- and test-based verification} \\
+     \textbf{Systems}{: Operating systems, computer architecture, Linux, Git} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Shanghai Jiao Tong University}{2024.09 -- 2028.06}
+      {B.S. in Computer Science and Technology}{}
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {SpecBridge: Natural Language to Lean Specifications}{2026.03 -- Present}
+      {Undergraduate Research Assistant | NeurIPS 2026 submission, third author}{}
+      \resumeItemListStart
+        \resumeItem{Built a reconstruction-guided pipeline that translates natural-language requirements and fixed signatures into Lean specs.}
+        \resumeItem{Designed NLFP planning and multi-layer validation with Python checks and Lean proof obligations, improving CLEVER results by 6.1/15.2/28.4 percentage points over few-shot + CoT baselines.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Cross-Architecture Operator Differential Testing}{2026.02 -- Present}
+      {Undergraduate Research Assistant}{}
+      \resumeItemListStart
+        \resumeItem{Developed a CUDA/CANN differential testing pipeline to compare neural-network operator semantics and support GPU/NPU reliability debugging.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Adaptive Acceleration for MoE Large Language Models}{2026.01 -- Present}
+      {Project Member | SJTU Undergraduate Innovation Practice Program}{}
+      \resumeItemListStart
+        \resumeItem{Designed adaptive expert allocation using gate scores, layer importance, attention, and token activations for MoE inference.}
+        \resumeItem{Profiled Qwen1.5-MoE and DeepSeek-V2 with PyTorch hooks and MMLU scripts; reduced latency by 12\% on Qwen1.5-MoE prefill and 5\% on DeepSeek-V2 token generation.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Intent-Based Test Case Generation}{2025.09 -- 2025.12}
+      {Undergraduate Research Assistant}{}
+      \resumeItemListStart
+        \resumeItem{Converted structured and semantic testing intents into executable tests for targeted coverage and bug finding.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+\end{document}
