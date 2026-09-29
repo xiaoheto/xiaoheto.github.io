@@ -11,22 +11,4 @@ toc:
   sidebar: left
 ---
 
-<style>
-.cv .card .list-group-item .row {
-  align-items: flex-start;
-}
-
-.cv .card .list-group-item .row > [class*="col-"] {
-  min-width: 0;
-}
-
-.cv .card .list-group-item h6 {
-  line-height: 1.45;
-  overflow-wrap: anywhere;
-  margin-bottom: 0.4rem;
-}
-
-.cv .card .list-group-item h6 + h6 {
-  margin-top: 0.3rem;
-}
-</style>
+<link rel="stylesheet" href="/assets/css/cv-overrides.css" />
