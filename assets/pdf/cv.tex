@@ -18,17 +18,23 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-\usepackage{fontawesome5}
 \usepackage{multicol}
+\usepackage{iftex}
 \setlength{\multicolsep}{-3.0pt}
 \setlength{\columnsep}{-1pt}
-\input{glyphtounicode}
+\ifPDFTeX
+  \input{glyphtounicode}
+\fi
+\ifXeTeX
+  \XeTeXgenerateactualtext=1
+\fi
 
 \pagestyle{fancy}
 \fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{4.1pt}
 
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.6in}
@@ -45,11 +51,13 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large\bfseries
+  \vspace{-4pt}\raggedright\large\bfseries
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
-\pdfgentounicode=1
+\ifPDFTeX
+  \pdfgentounicode=1
+\fi
 
 %-------------------------
 % Custom commands
@@ -82,7 +90,7 @@
 
 \newcommand{\resumeProjectHeading}[2]{
     \item
-    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & \textbf{\small #2}\\
     \end{tabular*}\vspace{-7pt}
 }
@@ -106,23 +114,16 @@
 \begin{center}
     {\Huge \scshape Zining He} \\ \vspace{1pt}
     Shanghai, China \\ \vspace{1pt}
-    \small \raisebox{-0.1\height}\faPhone\ +86-15662593643 ~
-    \href{mailto:hezining@sjtu.edu.cn}{\raisebox{-0.2\height}\faEnvelope\ \underline{hezining@sjtu.edu.cn}} ~
-    \href{https://github.com/xiaoheto}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/xiaoheto}}
+    \small \href{tel:+8615662593643}{\underline{+86-15662593643}} $|$
+    \href{mailto:hezining@sjtu.edu.cn}{\underline{hezining@sjtu.edu.cn}} $|$
+    \href{https://github.com/xiaoheto}{\underline{github.com/xiaoheto}}
     \vspace{-8pt}
 \end{center}
 
-%-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: C++, Rust, Python, Java} \\
-     \textbf{AI Systems}{: PyTorch, CUDA, Huawei CANN, GPU/NPU operator testing, MoE inference profiling} \\
-     \textbf{Formal}{: Lean, specification synthesis, proof- and test-based verification} \\
-     \textbf{Systems}{: Operating systems, computer architecture, Linux, Git} \\
-    }}
- \end{itemize}
- \vspace{-16pt}
+%-----------RESEARCH INTERESTS-----------
+\section{Research Interests}
+\small{Multimodal Foundation Models, Video Understanding and Generation, World Models, Efficient Large Language Models}
+\vspace{-6pt}
 
 %-----------EDUCATION-----------
 \section{Education}
@@ -132,23 +133,31 @@
       {B.S. in Computer Science and Technology}{}
   \resumeSubHeadingListEnd
 
+%-----------PUBLICATIONS-----------
+\section{Publications}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{SpecBridge: Natural Language to Lean Specifications} $|$ \emph{NeurIPS 2026, accepted}}{Third author}
+  \resumeSubHeadingListEnd
+
+%-----------INDUSTRY EXPERIENCE-----------
+\section{Industry Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Shanghai Chuangzhi Academy}{Approx. 2 months}
+      {Algorithm Intern, Multimodal Large Models}{}
+  \resumeSubHeadingListEnd
+
 %-----------RESEARCH EXPERIENCE-----------
 \section{Research Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading
       {SpecBridge: Natural Language to Lean Specifications}{2026.03 -- Present}
-      {Undergraduate Research Assistant | NeurIPS 2026 submission, third author}{}
-      \resumeItemListStart
-        \resumeItem{Built a reconstruction-guided pipeline that translates natural-language requirements and fixed signatures into Lean specs.}
-        \resumeItem{Designed NLFP planning and multi-layer validation with Python checks and Lean proof obligations, improving CLEVER results by 6.1/15.2/28.4 percentage points over few-shot + CoT baselines.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Cross-Architecture Operator Differential Testing}{2026.02 -- Present}
       {Undergraduate Research Assistant}{}
       \resumeItemListStart
-        \resumeItem{Developed a CUDA/CANN differential testing pipeline to compare neural-network operator semantics and support GPU/NPU reliability debugging.}
+        \resumeItem{Built a reconstruction-guided pipeline that translates natural-language requirements and fixed function signatures into formal Lean specifications.}
+        \resumeItem{Designed NLFP planning and multi-layer validation with Python checks and Lean proof obligations, improving CLEVER results by 6.1/15.2/28.4 percentage points over few-shot + CoT baselines.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -160,6 +169,13 @@
       \resumeItemListEnd
 
     \resumeSubheading
+      {Cross-Architecture Operator Differential Testing}{2026.02 -- Present}
+      {Undergraduate Research Assistant}{}
+      \resumeItemListStart
+        \resumeItem{Developed a CUDA/CANN differential testing pipeline to compare neural-network operator semantics and support GPU/NPU reliability debugging.}
+      \resumeItemListEnd
+
+    \resumeSubheading
       {Intent-Based Test Case Generation}{2025.09 -- 2025.12}
       {Undergraduate Research Assistant}{}
       \resumeItemListStart
@@ -168,5 +184,18 @@
 
   \resumeSubHeadingListEnd
 \vspace{-16pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{ML/LLM}{: PyTorch, large language models, MoE inference and evaluation} \\
+     \textbf{AI Systems}{: CUDA, Huawei CANN, GPU/NPU operator testing, inference profiling} \\
+     \textbf{Formal Methods}{: Lean, specification synthesis, proof- and test-based verification} \\
+     \textbf{Systems}{: Operating systems, computer architecture, Linux, Git} \\
+     \textbf{Languages}{: Python, C++, Rust, Java}
+    }}
+ \end{itemize}
+ \vspace{-16pt}
 
 \end{document}

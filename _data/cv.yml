@@ -5,7 +5,7 @@ cv:
   phone: +86-15662593643
   location: Shanghai, China
   image: ""
-  summary: Computer Science undergraduate at Shanghai Jiao Tong University with research interests in AI systems, formal verification, and large language models.
+  summary: Computer Science undergraduate at Shanghai Jiao Tong University with experience in multimodal large-model algorithms, LLM inference, AI systems, and formal verification.
 
   social_networks:
     - network: GitHub
@@ -27,12 +27,17 @@ cv:
           - Undergraduate research in multiple projects
 
     Experience:
+      - company: Shanghai Chuangzhi Academy
+        position: Algorithm Intern, Multimodal Large Models
+        location: Shanghai, China
+        summary: Algorithm internship in the multimodal large-model direction, approximately two months.
+
       - company: SpecBridge - Natural Language to Lean Specifications
         position: Undergraduate Research Assistant
         location: Shanghai Jiao Tong University
         start_date: 2026-03
         end_date: Present
-        summary: NeurIPS 2026 submission, third author. Built a reconstruction-guided pipeline that translates natural-language requirements and fixed signatures into Lean specifications.
+        summary: NeurIPS 2026 accepted, third author. Built a reconstruction-guided pipeline that translates natural-language requirements and fixed signatures into Lean specifications.
         highlights:
           - Designed NLFP planning and multi-layer validation with Python checks and Lean proof obligations
           - Improved CLEVER results by 6.1/15.2/28.4 percentage points over few-shot + CoT baselines

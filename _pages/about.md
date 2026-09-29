@@ -29,13 +29,14 @@ latest_posts:
 
 Hi! I'm Zining He (何子宁), a Computer Science undergraduate at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). 
 
-My research interests lie at the intersection of **AI systems**, **formal verification**, and **large language models**. I'm passionate about building reliable and efficient AI systems through rigorous testing, verification, and optimization techniques.
+My research interests lie at the intersection of **multimodal foundation models**, **efficient large language models**, **AI systems**, and **formal verification**. I am interested in extending my experience with LLM inference and reliable AI systems toward video understanding, video generation, and world models.
 
 ## Research Experience
 
 I'm currently working on several exciting projects:
 
-- **SpecBridge**: Developing a reconstruction-guided pipeline that translates natural-language requirements into Lean formal specifications (NeurIPS 2026 submission, third author)
+- **SpecBridge**: Developing a reconstruction-guided pipeline that translates natural-language requirements into Lean formal specifications (NeurIPS 2026 accepted, third author)
+- **Multimodal Large-Model Algorithms**: Algorithm intern at Shanghai Chuangzhi Academy for approximately two months
 - **Cross-Architecture Operator Testing**: Building differential testing frameworks for GPU/NPU neural network operators
 - **MoE Acceleration**: Optimizing mixture-of-experts model inference through adaptive expert allocation
 
