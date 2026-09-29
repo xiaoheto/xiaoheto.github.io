@@ -38,10 +38,10 @@ cv:
         location: Shanghai Jiao Tong University
         start_date: 2026-01
         end_date: 2026-06
-        summary: NeurIPS 2026 accepted, third author. Built a reconstruction-guided pipeline that translates natural-language requirements and fixed signatures into Lean specifications.
+        summary: NeurIPS 2026 accepted, third author. Contributed to the development and evaluation of a reconstruction-guided pipeline for translating natural-language requirements and fixed signatures into Lean specifications.
         highlights:
-          - Designed NLFP planning and multi-layer validation with Python checks and Lean proof obligations
-          - Improved CLEVER results by 6.1/15.2/28.4 percentage points over few-shot + CoT baselines
+          - Supported Python-based checks, Lean proof-obligation validation, and CLEVER experiments
+          - Project reported 6.1/15.2/28.4 percentage-point gains over few-shot + CoT baselines
 
       - company: Cross-Architecture Operator Differential Testing
         position: Undergraduate Research Assistant

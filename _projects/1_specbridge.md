@@ -8,14 +8,9 @@ category: research
 
 ## Overview
 
-SpecBridge is a reconstruction-guided pipeline that translates natural-language requirements and fixed signatures into Lean formal specifications. This project is part of a NeurIPS 2026 accepted paper where I serve as third author.
+SpecBridge is a reconstruction-guided pipeline that translates natural-language requirements and fixed signatures into Lean formal specifications. This project is part of a paper accepted to NeurIPS 2026, where I serve as third author.
 
-## Key Contributions
-
-- **Pipeline Design**: Built a reconstruction-guided approach that bridges the gap between informal natural language descriptions and formal Lean specifications
-- **NLFP Planning**: Designed Natural Language to Formal Program (NLFP) planning methodology
-- **Multi-layer Validation**: Implemented validation system combining Python checks and Lean proof obligations
-- **Performance Improvements**: Achieved 6.1/15.2/28.4 percentage point improvements over few-shot + Chain-of-Thought baselines on CLEVER benchmark
+As part of the project, I contributed to pipeline development and evaluation, including Python-based checks, Lean proof-obligation validation, and CLEVER benchmark experiments. The project reported 6.1/15.2/28.4 percentage-point improvements over few-shot + Chain-of-Thought baselines.
 
 ## Technical Details
 
@@ -39,4 +34,4 @@ This work addresses a critical challenge in formal verification: making formal m
 
 ## Status
 
-Manuscript submitted to NeurIPS 2026 (under review).
+Accepted to NeurIPS 2026; third author.
