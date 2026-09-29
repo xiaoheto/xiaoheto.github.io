@@ -35,8 +35,8 @@ cv:
       - company: SpecBridge - Natural Language to Lean Specifications
         position: Undergraduate Research Assistant
         location: Shanghai Jiao Tong University
-        start_date: 2026-03
-        end_date: Present
+        start_date: 2026-01
+        end_date: 2026-06
         summary: NeurIPS 2026 accepted, third author. Built a reconstruction-guided pipeline that translates natural-language requirements and fixed signatures into Lean specifications.
         highlights:
           - Designed NLFP planning and multi-layer validation with Python checks and Lean proof obligations
@@ -56,7 +56,7 @@ cv:
         position: Project Member
         location: SJTU Undergraduate Innovation Practice Program
         start_date: 2026-01
-        end_date: Present
+        end_date: 2026-07
         summary: Designed adaptive expert allocation using gate scores, layer importance, attention, and token activations for MoE inference.
         highlights:
           - Profiled Qwen1.5-MoE and DeepSeek-V2 with PyTorch hooks and MMLU scripts

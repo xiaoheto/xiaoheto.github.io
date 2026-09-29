@@ -11,7 +11,7 @@
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
+\usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
@@ -20,6 +20,9 @@
 \usepackage{tabularx}
 \usepackage{multicol}
 \usepackage{iftex}
+\definecolor{cvNavy}{HTML}{17365D}
+\definecolor{cvTeal}{HTML}{168C8C}
+\definecolor{cvMuted}{HTML}{536273}
 \setlength{\multicolsep}{-3.0pt}
 \setlength{\columnsep}{-1pt}
 \ifPDFTeX
@@ -51,8 +54,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{-3pt}\raggedright\large\bfseries\color{cvNavy}
+}{}{0em}{}[\color{cvTeal}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \ifPDFTeX
@@ -76,8 +79,8 @@
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textbf{\small #2} \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \textbf{\color{cvNavy}#1} & \textbf{\small\color{cvTeal} #2} \\
+      \textit{\small\color{cvMuted}#3} & \textit{\small\color{cvMuted} #4} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -91,7 +94,7 @@
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & \textbf{\small #2}\\
+      \small#1 & \textbf{\small\color{cvTeal} #2}\\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -112,11 +115,12 @@
 
 %----------HEADING----------
 \begin{center}
-    {\Huge \scshape Zining He} \\ \vspace{1pt}
-    Shanghai, China \\ \vspace{1pt}
+    {\Huge \scshape\color{cvNavy} Zining He} \\ \vspace{2pt}
+    {\small\color{cvMuted} Computer Science Undergraduate $|$ Shanghai Jiao Tong University} \\ \vspace{4pt}
     \small \href{tel:+8615662593643}{\underline{+86-15662593643}} $|$
-    \href{mailto:hezining@sjtu.edu.cn}{\underline{hezining@sjtu.edu.cn}} $|$
-    \href{https://github.com/xiaoheto}{\underline{github.com/xiaoheto}}
+    \href{mailto:hezining@sjtu.edu.cn}{\underline{hezining@sjtu.edu.cn}} \\
+    \small \href{https://github.com/xiaoheto}{\underline{github.com/xiaoheto}} $|$
+    \href{https://xiaoheto.github.io}{\underline{xiaoheto.github.io}}
     \vspace{-8pt}
 \end{center}
 
@@ -153,7 +157,7 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {SpecBridge: Natural Language to Lean Specifications}{2026.03 -- Present}
+      {SpecBridge: Natural Language to Lean Specifications}{2026.01 -- 2026.06}
       {Undergraduate Research Assistant}{}
       \resumeItemListStart
         \resumeItem{Built a reconstruction-guided pipeline that translates natural-language requirements and fixed function signatures into formal Lean specifications.}
@@ -161,7 +165,7 @@
       \resumeItemListEnd
 
     \resumeSubheading
-      {Adaptive Acceleration for MoE Large Language Models}{2026.01 -- Present}
+      {Adaptive Acceleration for MoE Large Language Models}{2026.01 -- 2026.07}
       {Project Member | SJTU Undergraduate Innovation Practice Program}{}
       \resumeItemListStart
         \resumeItem{Designed adaptive expert allocation using gate scores, layer importance, attention, and token activations for MoE inference.}
