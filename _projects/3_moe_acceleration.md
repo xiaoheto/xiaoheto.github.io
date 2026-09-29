@@ -2,7 +2,6 @@
 layout: page
 title: MoE Inference Acceleration
 description: Adaptive acceleration for Mixture-of-Experts large language models
-img: assets/img/moe_acceleration.jpg
 importance: 3
 category: research
 ---

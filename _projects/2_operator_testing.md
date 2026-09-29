@@ -2,7 +2,6 @@
 layout: page
 title: Cross-Architecture Operator Testing
 description: Differential testing for GPU/NPU neural network operators
-img: assets/img/operator_testing.jpg
 importance: 2
 category: research
 ---

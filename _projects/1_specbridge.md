@@ -2,14 +2,13 @@
 layout: page
 title: SpecBridge
 description: Natural Language to Lean Specifications
-img: assets/img/specbridge.jpg
 importance: 1
 category: research
 ---
 
 ## Overview
 
-SpecBridge is a reconstruction-guided pipeline that translates natural-language requirements and fixed signatures into Lean formal specifications. This project is part of a NeurIPS 2026 submission where I serve as third author.
+SpecBridge is a reconstruction-guided pipeline that translates natural-language requirements and fixed signatures into Lean formal specifications. This project is part of a NeurIPS 2026 accepted paper where I serve as third author.
 
 ## Key Contributions
 
