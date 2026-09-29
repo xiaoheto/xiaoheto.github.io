@@ -10,5 +10,3 @@ description: Zining He's academic CV, including research and industry experience
 toc:
   sidebar: left
 ---
-
-<link rel="stylesheet" href="/assets/css/cv-overrides.css" />
