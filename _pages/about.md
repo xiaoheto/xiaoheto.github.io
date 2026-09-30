@@ -27,9 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Zining He (何子宁), a Computer Science undergraduate at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). 
+Hi! I'm Zining He (何子宁), a Computer Science undergraduate at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/).
 
-My research interests lie at the intersection of **multimodal foundation models**, **efficient large language models**, **AI systems**, and **formal verification**. I am interested in extending my experience with LLM inference and reliable AI systems toward video understanding, video generation, and world models.
+My research interests lie at the intersection of **AI systems**, **formal verification**, **multimodal foundation models**, and **efficient large language models**.
 
 ## Research Experience
 
