@@ -2,7 +2,7 @@
 layout: about
 title: Homepage
 permalink: /
-subtitle: Computer Science Undergraduate | <a href='https://www.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>
+subtitle: Computer Science undergraduate at <a href='https://www.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>
 
 profile:
   align: left
@@ -11,8 +11,6 @@ profile:
   more_info: >
     <p>Shanghai Jiao Tong University</p>
     <p>Shanghai, China</p>
-    <p>AI Systems | Formal Verification</p>
-    <p>Multimodal Foundation Models | Efficient LLMs</p>
     <p>hezining@sjtu.edu.cn</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -35,13 +33,9 @@ Hi! I'm Zining He (何子宁), a Computer Science undergraduate at [Shanghai Jia
 
 My research interests lie at the intersection of **AI systems**, **formal verification**, **multimodal foundation models**, and **efficient large language models**.
 
-## Research Interests
+## Research Focus
 
-My current interests include reliable and efficient AI systems, formal methods for machine learning, multimodal foundation models, and efficient large language model inference.
-
-## News
-
-- **NeurIPS 2026**: The SpecBridge paper has been accepted; I am the third author.
+I work on reliable and efficient AI systems, formal methods for machine learning, multimodal foundation models, and efficient large language model inference.
 
 ## Publications
 
@@ -49,12 +43,12 @@ My current interests include reliable and efficient AI systems, formal methods f
 
 ## Research Experience
 
-I'm currently working on several research and engineering projects:
+Selected research and engineering projects:
 
-- **SpecBridge**: Developing a reconstruction-guided pipeline that translates natural-language requirements into Lean formal specifications (NeurIPS 2026 accepted, third author)
-- **Multimodal Large-Model Algorithms**: Algorithm intern at Shanghai Chuangzhi Academy for approximately two months
-- **Cross-Architecture Operator Testing**: Building differential testing frameworks for GPU/NPU neural network operators
-- **MoE Acceleration**: Optimizing mixture-of-experts model inference through adaptive expert allocation
+- **SpecBridge**: Contributed to the development and evaluation of a reconstruction-guided pipeline for translating natural-language requirements into Lean formal specifications. _NeurIPS 2026, accepted; third author._
+- **Multimodal Large-Model Algorithms**: Algorithm intern at Shanghai Chuangzhi Academy for approximately two months.
+- **Cross-Architecture Operator Testing**: Developing differential testing frameworks for GPU/NPU neural network operators.
+- **MoE Acceleration**: Studying adaptive expert allocation for mixture-of-experts model inference.
 
 ## Education
 
@@ -62,6 +56,8 @@ I'm currently working on several research and engineering projects:
 
 ## Technical Skills
 
-I work with **C++**, **Rust**, **Python**, and **Java**, with a focus on systems-level programming and AI infrastructure. My experience spans PyTorch, CUDA, formal verification tools like Lean, and various aspects of computer architecture and operating systems.
+**Languages:** C++, Rust, Python, Java
+
+**Systems and ML:** PyTorch, CUDA, Lean, Linux, computer architecture, operating systems
 
 Feel free to check out my [CV](/assets/pdf/cv.pdf) or reach out via [email](mailto:hezining@sjtu.edu.cn) if you'd like to discuss research collaborations or interesting problems in AI systems!
