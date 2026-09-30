@@ -1,16 +1,18 @@
 ---
 layout: about
-title: about
+title: Homepage
 permalink: /
-subtitle: <a href='https://www.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>
+subtitle: Computer Science Undergraduate | <a href='https://www.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Shanghai Jiao Tong University</p>
     <p>Shanghai, China</p>
+    <p>AI Systems | Formal Verification</p>
+    <p>Multimodal Foundation Models | Efficient LLMs</p>
     <p>hezining@sjtu.edu.cn</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -27,18 +29,36 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+## About Me
+
 Hi! I'm Zining He (何子宁), a Computer Science undergraduate at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/).
 
 My research interests lie at the intersection of **AI systems**, **formal verification**, **multimodal foundation models**, and **efficient large language models**.
 
+## Research Interests
+
+My current interests include reliable and efficient AI systems, formal methods for machine learning, multimodal foundation models, and efficient large language model inference.
+
+## News
+
+- **NeurIPS 2026**: The SpecBridge paper has been accepted; I am the third author.
+
+## Publications
+
+- **SpecBridge: Natural Language to Lean Specifications.** _NeurIPS 2026, accepted._ Third author.
+
 ## Research Experience
 
-I'm currently working on several exciting projects:
+I'm currently working on several research and engineering projects:
 
 - **SpecBridge**: Developing a reconstruction-guided pipeline that translates natural-language requirements into Lean formal specifications (NeurIPS 2026 accepted, third author)
 - **Multimodal Large-Model Algorithms**: Algorithm intern at Shanghai Chuangzhi Academy for approximately two months
 - **Cross-Architecture Operator Testing**: Building differential testing frameworks for GPU/NPU neural network operators
 - **MoE Acceleration**: Optimizing mixture-of-experts model inference through adaptive expert allocation
+
+## Education
+
+- **2024.09 - 2028.06**: B.S. in Computer Science and Technology, Shanghai Jiao Tong University.
 
 ## Technical Skills
 
