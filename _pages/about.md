@@ -12,7 +12,7 @@ profile:
     <h1 class="home-profile-name">Zining He</h1>
     <p class="home-profile-role">Computer Science undergraduate</p>
     <p>Shanghai Jiao Tong University</p>
-    <p><strong>CoPhi research group</strong></p>
+    <p><a href="http://linyun.info/team.html"><strong>CoPhi research group</strong></a></p>
     <p>Advised by Prof. Yun Lin</p>
     <p>Shanghai, China</p>
     <p><a href="mailto:hezining@sjtu.edu.cn">hezining@sjtu.edu.cn</a></p>
@@ -31,7 +31,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am interested in reliable and efficient AI systems, multimodal foundation models, large language model inference, and formal verification. My current interests include video understanding and generation, world models, and efficient multimodal learning.
+I am a member of the [CoPhi research group](http://linyun.info/team.html) at Shanghai Jiao Tong University, advised by Prof. Yun Lin. My research interests include **formal proofs and specification synthesis**, **neural-network operator verification and proof**, efficient AI systems, large language model inference, and multimodal foundation models.
+
+I am also interested in video understanding and generation, world models, and efficient multimodal learning.
 
 ## Research
 
