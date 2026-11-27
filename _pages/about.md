@@ -2,7 +2,7 @@
 layout: about
 title: Homepage
 permalink: /
-subtitle: Computer Science undergraduate at <a href='https://www.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>
+subtitle: Computer Science undergraduate at <a href='https://www.sjtu.edu.cn/'>Shanghai Jiao Tong University</a> | AI systems and multimodal models
 
 profile:
   align: left
@@ -13,11 +13,11 @@ profile:
     <p>Shanghai, China</p>
     <p>hezining@sjtu.edu.cn</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -31,33 +31,28 @@ latest_posts:
 
 Hi! I'm Zining He (何子宁), a Computer Science undergraduate at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/).
 
-My research interests lie at the intersection of **AI systems**, **formal verification**, **multimodal foundation models**, and **efficient large language models**.
+I build reliable and efficient AI systems, with current work spanning **multimodal foundation models**, **large language model inference**, and **formal verification**. I am especially interested in extending this foundation toward video understanding and generation, world models, and efficient multimodal learning.
 
-## Research Focus
+## Research
 
-I work on reliable and efficient AI systems, formal methods for machine learning, multimodal foundation models, and efficient large language model inference.
+My work connects model capability with the systems and formal methods needed to make AI more efficient, testable, and reliable.
 
-## Publications
+- **SpecBridge**: A reconstruction-guided pipeline for translating natural-language requirements and fixed signatures into Lean formal specifications. I contributed to development and evaluation, including Python checks, Lean proof obligations, and CLEVER experiments. [Project page](/projects/1_specbridge/) · [Paper page](https://sites.google.com/view/specbridge)
+- **Efficient AI systems**: Adaptive expert allocation for MoE inference and cross-architecture testing of GPU/NPU neural-network operators.
+- **Multimodal models**: Algorithm internship experience at Shanghai Chuangzhi Academy, with a focus on multimodal large models.
 
-- **SpecBridge: Natural Language to Lean Specifications.** _NeurIPS 2026, accepted._ Third author.
+## Publication
 
-## Research Experience
-
-Selected research and engineering projects:
-
-- **SpecBridge**: Contributed to the development and evaluation of a reconstruction-guided pipeline for translating natural-language requirements into Lean formal specifications. _NeurIPS 2026, accepted; third author._
-- **Multimodal Large-Model Algorithms**: Algorithm intern at Shanghai Chuangzhi Academy for approximately two months.
-- **Cross-Architecture Operator Testing**: Developing differential testing frameworks for GPU/NPU neural network operators.
-- **MoE Acceleration**: Studying adaptive expert allocation for mixture-of-experts model inference.
+**SpecBridge: Natural Language to Lean Specifications** · _NeurIPS 2026, accepted_ · Third author. [Details and resources](https://sites.google.com/view/specbridge)
 
 ## Education
 
-- **2024.09 - 2028.06**: B.S. in Computer Science and Technology, Shanghai Jiao Tong University.
+**B.S. in Computer Science and Technology**, Shanghai Jiao Tong University · 2024.09–2028.06
 
 ## Technical Skills
 
-**Languages:** C++, Rust, Python, Java
+**Languages:** C++, Rust, Python, Java<br>
+**AI and systems:** PyTorch, CUDA, Huawei CANN, Linux, computer architecture, operating systems<br>
+**Formal methods:** Lean, specification synthesis, proof- and test-based verification
 
-**Systems and ML:** PyTorch, CUDA, Lean, Linux, computer architecture, operating systems
-
-Feel free to check out my [CV](/assets/pdf/cv.pdf) or reach out via [email](mailto:hezining@sjtu.edu.cn) if you'd like to discuss research collaborations or interesting problems in AI systems!
+For a fuller overview, see my [CV](/assets/pdf/cv.pdf), or contact me at [hezining@sjtu.edu.cn](mailto:hezining@sjtu.edu.cn).
