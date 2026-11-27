@@ -61,3 +61,48 @@
   overflow-wrap: anywhere;
   white-space: normal;
 }
+
+// Keep the homepage profile and biography in two compact columns.
+.post:has(.home-profile-name) .post-header {
+  display: none;
+}
+
+.post:has(.home-profile-name) article {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.32fr) minmax(0, 0.68fr);
+  gap: 3rem;
+  align-items: start;
+}
+
+.post:has(.home-profile-name) article .profile {
+  float: none;
+  width: auto;
+  margin: 0;
+  grid-column: 1;
+}
+
+.post:has(.home-profile-name) article .clearfix {
+  grid-column: 2;
+  min-width: 0;
+}
+
+.home-profile-name {
+  margin: 1.25rem 0 0.25rem;
+  font-size: 2rem;
+  line-height: 1.15;
+}
+
+.home-profile-role {
+  margin-bottom: 1rem;
+  color: var(--global-text-color-light);
+}
+
+@media (max-width: 768px) {
+  .post:has(.home-profile-name) article {
+    display: block;
+  }
+
+  .post:has(.home-profile-name) article .profile {
+    margin-bottom: 2rem;
+  }
+}
