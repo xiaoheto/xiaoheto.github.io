@@ -70,7 +70,7 @@
 .post:has(.home-profile-name) article {
   display: grid;
   grid-template-columns: minmax(180px, 0.32fr) minmax(0, 0.68fr);
-  gap: 3rem;
+  gap: 5rem;
   align-items: start;
 }
 

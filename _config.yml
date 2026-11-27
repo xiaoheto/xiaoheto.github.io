@@ -9,7 +9,7 @@ last_name: He
 contact_note: >
   Feel free to reach me via email or check out my GitHub projects.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Computer Science undergraduate at Shanghai Jiao Tong University and a member of the CoPhi research group under Prof. Yun Lin, working on multimodal foundation models, efficient LLMs, AI systems, and formal verification.
+  Computer Science undergraduate at Shanghai Jiao Tong University and a member of the CoPhi research group, working on multimodal foundation models, efficient LLMs, AI systems, and formal verification.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
