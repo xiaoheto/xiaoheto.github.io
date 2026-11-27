@@ -165,6 +165,7 @@ A: 确保 `_config.yml` 中 `baseurl` 为空（对于 username.github.io 仓库�
 
 **Q: 如何更新内容？**
 A: 编辑文件后，提交并推送：
+
 ```bash
 git add .
 git commit -m "Update content"

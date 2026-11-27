@@ -2,7 +2,7 @@
 layout: about
 title: Homepage
 permalink: /
-subtitle: Computer Science undergraduate at <a href='https://www.sjtu.edu.cn/'>Shanghai Jiao Tong University</a> | AI systems and multimodal models
+subtitle: Computer Science undergraduate at <a href='https://www.sjtu.edu.cn/'>Shanghai Jiao Tong University</a> | CoPhi research group
 
 profile:
   align: left
@@ -10,6 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Shanghai Jiao Tong University</p>
+    <p>CoPhi research group</p>
+    <p>Advised by Prof. Yun Lin</p>
     <p>Shanghai, China</p>
     <p>hezining@sjtu.edu.cn</p>
 
@@ -29,7 +31,7 @@ latest_posts:
 
 ## About Me
 
-Hi! I'm Zining He (何子宁), a Computer Science undergraduate at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/).
+Hi! I'm Zining He (何子宁), a Computer Science undergraduate at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), where I am part of the **CoPhi research group** under the guidance of Prof. Yun Lin.
 
 I build reliable and efficient AI systems, with current work spanning **multimodal foundation models**, **large language model inference**, and **formal verification**. I am especially interested in extending this foundation toward video understanding and generation, world models, and efficient multimodal learning.
 

@@ -3,12 +3,14 @@
 ## ✅ 已完成的工作
 
 ### 1. 基础设置
+
 - ✅ 克隆了 al-folio 模板（最新版本）
 - ✅ 项目目录：`/home/zining/Zining/zining.github.io`
 
 ### 2. 个人信息配置
 
 #### `_config.yml` - 网站主配置
+
 - ✅ 姓名：Zining He (何子宁)
 - ✅ 邮箱：hezining@sjtu.edu.cn
 - ✅ 学校：Shanghai Jiao Tong University
@@ -17,11 +19,13 @@
 - ✅ 关键词：computer-science, ai-systems, formal-verification
 
 #### `_data/socials.yml` - 社交媒体
+
 - ✅ Email：hezining@sjtu.edu.cn
 - ✅ GitHub：xiaoheto
 - ✅ CV PDF：/assets/pdf/cv.pdf
 
 #### `_data/cv.yml` - 简历数据
+
 - ✅ 教育背景：SJTU CS 2024-2028
 - ✅ 研究经历：
   - SpecBridge (NeurIPS 2026 submission)
@@ -34,6 +38,7 @@
 ### 3. 页面内容
 
 #### `_pages/about.md` - 主页
+
 - ✅ 个性化的自我介绍
 - ✅ 研究兴趣说明
 - ✅ 当前研究项目概述
@@ -41,16 +46,19 @@
 - ✅ 联系方式
 
 #### 研究项目（`_projects/`）
+
 - ✅ `1_specbridge.md` - 自然语言到 Lean 规范转换
 - ✅ `2_operator_testing.md` - GPU/NPU 算子差异测试
 - ✅ `3_moe_acceleration.md` - MoE 模型推理加速
 - ✅ 删除了模板自带的示例项目
 
 ### 4. 资源文件
+
 - ✅ 头像：`assets/img/prof_pic.jpg` (258KB)
 - ✅ 简历：`assets/pdf/cv.pdf` (69KB)
 
 ### 5. 部署工具
+
 - ✅ `deploy.sh` - 一键部署脚本（可执行）
 - ✅ `QUICKSTART.md` - 快速开始指南
 - ✅ `README_DEPLOYMENT.md` - 详细部署说明
@@ -117,12 +125,14 @@ git push -u origin main
 ## 🎨 自定义建议
 
 ### 立即可做的：
+
 1. 添加更多项目到 `_projects/`
 2. 在 `_posts/` 写博客文章
 3. 更新项目图片（目前项目页面引用的图片还不存在）
 4. 添加 Google Scholar 链接（如果有）
 
 ### 可选配置：
+
 1. Google Analytics（在 `_config.yml` 添加 ID）
 2. Giscus 评论系统（在 `_config.yml` 配置）
 3. 自定义域名（在仓库添加 CNAME 文件）

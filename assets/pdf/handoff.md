@@ -114,13 +114,13 @@ B.S. in Computer Science and Technology
 如果版面允许，可以考虑加入 GPA / Major Rank，但不要自行猜测。
 
 已知情况：
+
 - 当前专业排名大约在前 50% 左右
 - 之后计划通过重修部分大一课程继续提升排名
 
 如果没有足够版面或没有正式 GPA 数字，不要强行加入排名。
 
 ---
-
 
 # 4.1 多模态大模型算法实习经历（必须加入）
 
@@ -201,6 +201,7 @@ B.S. in Computer Science and Technology
 可以优化表达，但不要改变事实。
 
 核心事实：
+
 - Natural Language → Lean specification
 - reconstruction-guided pipeline
 - NLFP planning
@@ -213,6 +214,7 @@ B.S. in Computer Science and Technology
 - 本人第三作者
 
 注意：
+
 - 不要把自己改成 first author
 - 不要把 accepted 写成 submission
 - 不要擅自增加“led the project”等没有明确证据支持的描述
@@ -255,6 +257,7 @@ B.S. in Computer Science and Technology
 - Developed a CUDA/CANN differential testing pipeline to compare neural-network operator semantics and support GPU/NPU reliability debugging.
 
 价值：
+
 - CUDA
 - CANN
 - GPU/NPU
@@ -280,6 +283,7 @@ B.S. in Computer Science and Technology
 这个项目相对不直接服务于 Multimodal / Video / World Model。
 
 如果需要压缩一页，可以：
+
 - 保留一行
 - 或合并/弱化
 - 但不要虚构它与多模态大模型有关
@@ -317,6 +321,7 @@ Languages: Python, C++, Rust, Java
 注意：
 
 **不要在没有证据的情况下添加：**
+
 - VLM
 - Video Generation
 - Video LLM

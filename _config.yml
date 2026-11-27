@@ -9,17 +9,17 @@ last_name: He
 contact_note: >
   Feel free to reach me via email or check out my GitHub projects.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Computer Science undergraduate at Shanghai Jiao Tong University working on multimodal foundation models, efficient LLMs, AI systems, and formal verification.
+  Computer Science undergraduate at Shanghai Jiao Tong University and a member of the CoPhi research group under Prof. Yun Lin, working on multimodal foundation models, efficient LLMs, AI systems, and formal verification.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: computer-science, multimodal-foundation-models, video-understanding, world-models, efficient-ai, sjtu # add your own keywords or leave empty
+keywords: computer-science, cophi, multimodal-foundation-models, video-understanding, world-models, efficient-ai, sjtu # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://xiaoheto.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
